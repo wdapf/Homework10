@@ -1,0 +1,144 @@
+		html, body{
+			scroll-behavior: smooth;
+			background-color: fuchsia;
+		}
+		.mainMenu{
+			width: 100%;
+			margin: 0 auto;
+			border: 10px ridge blue;
+			text-align: center;
+			background-color: orange;
+			/*font-size: 0;*/
+			position: relative;
+		}
+		.mainTwo p{
+			text-align: left;
+			font-style: italic;
+			font-size: 16px;
+		}
+		.mainThree {
+			display: inline-block;			
+			position: relative;
+			font-size: 16px;
+		}
+		.poscn {
+			position: absolute;
+			z-index: 5;
+			bottom: calc(100vmin - 50%);
+			width: 100%;
+		}
+		.poscn>p {
+			text-align: center;
+		}
+		.poscn:hover {
+			display: block;
+			background-color: red;
+		}
+		div img:hover+.poscn {			
+			background: rgba(211, 211, 211, .3);
+			display: block;
+		}
+		.poscnTwo {
+			position: absolute;
+			z-index: 5;
+			bottom: calc(50vmin - 50%);
+			width: 100%;
+		}
+		.poscnTwo>p {
+			text-align: center;
+		}
+		.poscnTwo:hover {
+			display: block;
+			background-color: red;
+		}
+		.grid {
+			position: fixed;
+			top: calc(100vmin - 50%);
+			left: 5%;				
+		}
+		.gridIn {
+			width: 6%;
+			height: 6%;
+			position: fixed;
+			top: calc(100vmin - 50%);
+			background-color: salmon;
+		}
+		li a{
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: 10px 15px;
+			display: block;
+		}
+		body:hover .gridIn {
+			background: salmon;
+			z-index: 10;
+		}
+		.gridIn:hover+.grid {
+			display: block;
+			background: rgba(250, 128, 114, .3);
+			z-index: 15;			
+		}
+		.grid:hover {
+			display: block;
+			background: salmon;
+			z-index: 15;	
+		}
+		div img:hover+.poscnTwo {
+			background: rgba(211, 211, 211, .3);
+			display: block;
+		}
+		.chapter{
+			border: 1px dashed green;
+			box-sizing: content-box;
+		}
+		.chapterOne{
+			border: 1px dashed orange;
+		}
+		.chapterTwo{
+			border: 1px dashed fuchsia;
+		}
+		.mainGeneral{
+			text-align: center;
+			font-style: italic;
+			font-size: 26px;
+			background-color: aqua;
+		}
+		h1.mainGeneral{
+			padding: 15px 5px;
+		}
+		.electro{
+			background-color: red;
+			font-size: 22px;
+		}
+		.electroTwo{
+			background-color: greenyellow;
+			font-size: 20px;
+		}
+		.electroAuto{
+			background-color: salmon;
+		}
+		.electroHome{
+			background-color: green;
+		}
+		h3+p{
+			font-style: italic;
+		}
+		div p{
+			text-align: justify;
+			padding: 10px 15px;
+		}
+		div+div+div>p{
+			font-style: italic;
+			color: blue;
+		}
+		div img{
+			border: 5px dotted green;
+			width: 100vmin;
+			height: 100vmin;
+		}
+		div img.tPot{
+			border: 2px dotted green;
+			width: 50vmin;
+			height: 50vmin;
+		}
+		
