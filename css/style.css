@@ -53,14 +53,14 @@
 		}
 		.grid {
 			position: fixed;
-			top: calc(100vmin - 50%);
+			top: 50vmin;
 			left: 5%;				
 		}
 		.gridIn {
 			width: 6%;
 			height: 6%;
 			position: fixed;
-			top: calc(100vmin - 50%);
+			top: 50vmin;
 			background-color: salmon;
 		}
 		li a{
