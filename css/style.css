@@ -8,7 +8,6 @@
 			border: 10px ridge blue;
 			text-align: center;
 			background-color: orange;
-			/*font-size: 0;*/
 			position: relative;
 		}
 		.mainTwo p{
@@ -57,7 +56,7 @@
 			left: 5%;				
 		}
 		.gridIn {
-			width: 6%;
+			width: 8%;
 			height: 6%;
 			position: fixed;
 			top: 50vmin;
