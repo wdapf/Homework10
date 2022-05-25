@@ -25,6 +25,7 @@
 			z-index: 5;
 			bottom: calc(100vmin - 50%);
 			width: 100%;
+			left: 0;
 		}
 		.poscn>p {
 			text-align: center;
